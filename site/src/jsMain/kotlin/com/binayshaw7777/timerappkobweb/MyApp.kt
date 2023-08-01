@@ -16,6 +16,7 @@ import com.varabyte.kobweb.silk.init.registerBaseStyle
 import kotlinx.browser.localStorage
 import org.jetbrains.compose.web.css.*
 
+//Develop commit
 private const val COLOR_MODE_KEY = "timerappkobweb:colorMode"
 
 @InitSilk
