@@ -1,0 +1,14 @@
+site:
+  title: "TimerApp Kobweb"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/timerappkobweb.js"
+      api: "build/libs/timerappkobweb.jar"
+    prod:
+      script: "build/distributions/timerappkobweb.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
